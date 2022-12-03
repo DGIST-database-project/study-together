@@ -1,15 +1,14 @@
 {
-  "main.css": "/static/css/main.6a483984.chunk.css",
-  "main.js": "/static/js/main.c34cd0e3.chunk.js",
-  "main.js.map": "/static/js/main.c34cd0e3.chunk.js.map",
-  "static/js/1.c625f3bb.chunk.js": "/static/js/1.c625f3bb.chunk.js",
-  "static/js/1.c625f3bb.chunk.js.map": "/static/js/1.c625f3bb.chunk.js.map",
-  "static/js/2.b44c4ec8.chunk.js": "/static/js/2.b44c4ec8.chunk.js",
-  "static/js/2.b44c4ec8.chunk.js.map": "/static/js/2.b44c4ec8.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c7ddb75b.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c7ddb75b.js.map",
-  "static/css/main.6a483984.chunk.css.map": "/static/css/main.6a483984.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.f9e0b5b5f11c874d1204af330c366899.js": "/precache-manifest.f9e0b5b5f11c874d1204af330c366899.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/DGIST-database-project/study-together/static/css/main.363c01fb.chunk.css",
+  "main.js": "/DGIST-database-project/study-together/static/js/main.d3abaa6b.chunk.js",
+  "main.js.map": "/DGIST-database-project/study-together/static/js/main.d3abaa6b.chunk.js.map",
+  "static/js/1.16c37382.chunk.js": "/DGIST-database-project/study-together/static/js/1.16c37382.chunk.js",
+  "static/js/1.16c37382.chunk.js.map": "/DGIST-database-project/study-together/static/js/1.16c37382.chunk.js.map",
+  "runtime~main.js": "/DGIST-database-project/study-together/static/js/runtime~main.d99fa857.js",
+  "runtime~main.js.map": "/DGIST-database-project/study-together/static/js/runtime~main.d99fa857.js.map",
+  "static/media/dalgu.png": "/DGIST-database-project/study-together/static/media/dalgu.0a2932df.png",
+  "static/css/main.363c01fb.chunk.css.map": "/DGIST-database-project/study-together/static/css/main.363c01fb.chunk.css.map",
+  "index.html": "/DGIST-database-project/study-together/index.html",
+  "precache-manifest.6225d0e0b58e6e92ff40158748d9f6ed.js": "/DGIST-database-project/study-together/precache-manifest.6225d0e0b58e6e92ff40158748d9f6ed.js",
+  "service-worker.js": "/DGIST-database-project/study-together/service-worker.js"
 }
