@@ -1,22 +1,37 @@
-import "./App.css";
+// import './App.css';
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./home/home";
-import Signup from "./signup/signup";
-import Login from "./login/login";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Signup from "./Signup.js";
+import Login from "./Login.js";
+import Home from "./Home.js";
+import Study from "./Study.js";
+import Post from "./Post.js";
+import Edit from "./Edit.js";
+import Make from "./Make.js";
+// import Main from './Home.js';
+// import Soldier from './Soldier.js';
+// import Give_points from './Give_points';
+// import Give_n_points from './Give_n_points';
+// import Notice from './Notice';
+// import Menu from './Menu';
+// import Home from './Home.js';
 
-function App() {
-  return (
-    <BrowserRouter>
-      <div className="App">
+class App extends React.Component {
+  render() {
+    return (
+      <HashRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="login" element={<Login />} />
+          <Route path="/" exact={true} element={<Login />} />
+          <Route path="/Signup" element={<Signup />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/study/detail/:id" element={<Study />} />
+          <Route path="/post/:id/:ind" element={<Post />} />
+          <Route path="/edit/:id" element={<Edit />} />
+          <Route path="/make" element={<Make />} />
         </Routes>
-      </div>
-    </BrowserRouter>
-  );
+      </HashRouter>
+    );
+  }
 }
 
 export default App;
