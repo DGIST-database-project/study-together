@@ -14,9 +14,9 @@ const Edit = () => {
     axios.get(
       `http://localhost:3001/api/edit?id=${location.state.id}&content=${content}`
     );
-    navigate(`/study/detail/${location.state.study_id}`, {
-      state: { id: location.state.user },
-    });
+    // navigate(`/study/detail/${location.state.study_id}`, {
+    //   state: { id: location.state.user },
+    // });
   };
   return (
     <div>
